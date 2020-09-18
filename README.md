@@ -1,4 +1,5 @@
 # Angela Ossana
+# Predicting Future Ocean Regions for CO2 Sequestration 
 ## UMBC FALL 2020 DATA606 FinalProject
 ## Dr. Ergun Simsek 
 ## Project Site 
@@ -13,5 +14,6 @@ The complete dataset from GLODAP v2.2020 is loaded into a Python dataframe and t
 
 
 ![Ocean Counts](/images/OceanCounts.png)
-Example figure from data exploration of data row counts per ocean per month. 
+
+#### Example figure from data exploration of data row counts per ocean per month. 
 
