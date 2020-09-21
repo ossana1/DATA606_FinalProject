@@ -9,6 +9,7 @@ https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088
 
 
 ## Notebooks 
+### PHASE I
 1. Phase I_Exploration and Cleaning Part I <br>
 The complete dataset from GLODAP v2.2020 is loaded into a Python dataframe and the columns containing flags for quality control are removed. All rows with negative depth values are also removed. <br>
 2. Phase I_Cleaning Part II<br>
