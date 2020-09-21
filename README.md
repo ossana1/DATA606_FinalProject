@@ -6,7 +6,9 @@
 https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088LqPGmpKfiSUgTiD3/edit?ths=true
 
 ## Data
-The cleaned dataset has been split into CSVs for upload to github repo. 
+The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using pd.concat. 
+
+
 
 ## Notebooks 
 ### PHASE I
