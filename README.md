@@ -1,5 +1,5 @@
 # Angela Ossana
-# Modeling CO$_2$ Sequestration using the Global Ocean Data Analysis Project (GLODAP)
+# Modeling CO2 Sequestration using the Global Ocean Data Analysis Project (GLODAP)
 ## UMBC FALL 2020 DATA606 FinalProject
 ## Dr. Ergun Simsek 
 ## Project Site 
