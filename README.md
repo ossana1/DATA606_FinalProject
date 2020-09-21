@@ -17,6 +17,3 @@ Columns with mostly null (>90% rows) are removed from the dataset. Figures are m
 #### Example figure from data exploration of cruises from year to year. 
 ![Ocean Counts](/images/yearCruises.gif)
 
-
-#### Example figure from data exploration of cruise IDs. 
-![Ocean Counts](/images/cruises.gif)
