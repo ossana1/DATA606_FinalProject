@@ -24,3 +24,12 @@ Example code for merging the split datafiles into a single dataframe for analysi
 #### Example figure from data exploration of cruises from year to year. 
 ![Ocean Counts](/images/yearCruises.gif)
 
+### PHASE II
+1. Phase II. ML Model Training Part I_ Filling NA Values <br>
+input var filled <br>
+
+2. Phase II. ML Model Training Part II_ Training CO2 Model<br>
+training and filling for cO2 <br>
+
+3. Phase II. ML Model Training Part III_Visuals <br>
+plotly and html 
