@@ -8,7 +8,9 @@ https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088
 ## Data
 The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. 
 
+## The project process map is shown below. The raw CSVs from the GLOPAPv2.2020 repository are cleaned, combined, and NA values are filled using ML random forest regresssion modles. Notebooks and data are saved to this repository for use with Heroku platform as a service to create an interactive user dashboard. 
 
+![Ocean Counts](/images/ProjectMap.png)
 
 ## Notebooks 
 ### PHASE I
@@ -31,8 +33,11 @@ The input variables for the CO2 model with NA values in >5% of rows were tested 
 
 2. Phase II. ML Model Training Part II_ Training CO2 Model<br>
 The input variables for the model with NA values have been filled by the previous notebook [gamma, oxygen, apparent O2 utilization, nitrate, silicate, phosphate, total alkilinity, pH]. This notebook trains and applies a random forest regression model to the total CO2 columns of the dataset. No model tuning is performed due to the high performance metrics (R2 ~.99) on test and validation sets. <br>
-![Map](/images/MLperformancesplit.png)
+![Map](/images/MLperformances.png)
 
 
-3. Phase II. ML Model Training Part III_Visuals <br>
-plotly and html 
+3. Phase II. ML Model Training Part III_DashboardTesting <br>
+Testing of Jupyter notebook with Voila for deployment to Heroku platform as a service. Contains data grouping, plotly visuals, and functional testing for user interaction. 
+
+4. dashboard.ipynb
+Under the voila-dashboard project branch, the final cleaned notebook for dashboard use with Heroku. 
