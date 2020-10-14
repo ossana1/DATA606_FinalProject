@@ -11,7 +11,8 @@ https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088
 
 
 ## Data
-The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. 
+The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. See an image of cruise locations below.  
+![Ocean Counts](/images/OceanRegion.png)
 
 ## Notebooks 
 ### PHASE I
