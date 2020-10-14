@@ -31,7 +31,7 @@ Example code for merging the split datafiles into a single dataframe for analysi
 ### PHASE II
 1. Phase II. ML Model Training Part I_ Filling NA Values <br>
 The input variables for the CO2 model with NA values in >5% of rows were tested and trained for several ML regression models. The variables were individually tested [gamma, oxygen, apparent O2 utilization, nitrate, silicate, phosphate, total alkilinity, pH] for decision tree, random forest, and linear regression models. The best performing model for each column was saved and applied to each columns' missing values. Random forest regression models were the best performing for all variable columns. An image is shown below demonstrating sparsity of these columns. <br>
-![Map](/images/msno.png)
+![Map](/images/msnolabel.png)
 
 2. Phase II. ML Model Training Part II_ Training CO2 Model<br>
 The input variables for the model with NA values have been filled by the previous notebook [gamma, oxygen, apparent O2 utilization, nitrate, silicate, phosphate, total alkilinity, pH]. This notebook trains and applies a random forest regression model to the total CO2 columns of the dataset. No model tuning is performed due to the high performance metrics (R2 ~.99) on test and validation sets. <br>
