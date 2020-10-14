@@ -33,11 +33,12 @@ The input variables for the CO2 model with NA values in >5% of rows were tested 
 
 2. Phase II. ML Model Training Part II_ Training CO2 Model<br>
 The input variables for the model with NA values have been filled by the previous notebook [gamma, oxygen, apparent O2 utilization, nitrate, silicate, phosphate, total alkilinity, pH]. This notebook trains and applies a random forest regression model to the total CO2 columns of the dataset. No model tuning is performed due to the high performance metrics (R2 ~.99) on test and validation sets. <br>
-![Map](/images/MLperformances.png)
+![Map](/images/MLperformance.png)
 
 
 3. Phase II. ML Model Training Part III_DashboardTesting <br>
 Testing of Jupyter notebook with Voila for deployment to Heroku platform as a service. Contains data grouping, plotly visuals, and functional testing for user interaction. 
-
-4. dashboard.ipynb
+<br>
+4. dashboard.ipynb<br>
 Under the voila-dashboard project branch, the final cleaned notebook for dashboard use with Heroku. 
+<br>
