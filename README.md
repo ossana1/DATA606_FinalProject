@@ -39,8 +39,7 @@ The input variables for the model with NA values have been filled by the previou
 
 
 3. Phase II. ML Model Training Part III_DashboardTesting <br>
-Testing of Jupyter notebook with Voila for deployment to Heroku platform as a service. Contains data grouping, plotly visuals, and functional testing for user interaction. 
-<br>
+Testing of Jupyter notebook with Voila for deployment to Heroku platform as a service. Contains data grouping, plotly visuals, and functional testing for user interaction. <br>
 4. dashboard.ipynb<br>
 Under the voila-dashboard project branch, the final cleaned notebook for dashboard use with Heroku. 
 <br>
