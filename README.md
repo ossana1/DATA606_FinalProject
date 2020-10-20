@@ -9,6 +9,9 @@ https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088
 
 ![Ocean Counts](/images/ProjectMap.png)
 
+## Dashboard 
+
+The dashboard implementation with Heroku is in the voila-dashboard branch with necessary configuration files. 
 
 ## Data
 The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. See an image of cruise locations below.  
