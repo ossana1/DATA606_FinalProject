@@ -11,7 +11,7 @@ https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088
 
 ## Dashboard 
 
-The dashboard implementation with Heroku is in the voila-dashboard branch with necessary configuration files. 
+The dashboard implementation with Heroku is in the __voila-dashboard branch__ of the repository with necessary configuration files. Any commits to this branch are pushed to the Heroku project automatically. 
 
 ## Data
 The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. See an image of cruise locations below.  
