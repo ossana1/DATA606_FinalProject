@@ -5,13 +5,13 @@
 ### Project Site 
 https://sites.google.com/s/14-zXY-tR-4ddTR09NcwHH0VdedwqjA0Q/p/1mnouXuUqS3ud_088LqPGmpKfiSUgTiD3/edit?ths=true
 
-## The project process map is shown below. The raw CSVs from the GLOPAPv2.2020 repository are cleaned, combined, and NA values are filled using ML random forest regresssion modles. Notebooks and data are saved to this repository for use with Heroku platform as a service to create an interactive user dashboard. 
+## The project process map is shown below. The raw CSVs from the GLOPAPv2.2020 repository are cleaned, combined, and NA values are filled using ML random forest regresssion modles. Notebooks and data are saved to this repository for use with Heroku platform as a service to create an interactive user dashboard. The project repository has a second branch (voila-dashboard) to host the necessary files for the Heroku project. 
 
 ![Ocean Counts](/images/ProjectMap.png)
 
 ## Dashboard 
 
-The dashboard implementation with Heroku is in the __voila-dashboard branch__ of the repository with necessary configuration files. Any commits to this branch are pushed to the Heroku project automatically. 
+The dashboard implementation with Heroku is in the __voila-dashboard branch__ of the repository with necessary configuration files. Any commits to this branch are pushed to the Heroku project automatically. <br> https://ossana-angela-data606-final.herokuapp.com/
 
 ## Data
 The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. See an image of cruise locations below.  
