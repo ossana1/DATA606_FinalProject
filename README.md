@@ -15,7 +15,10 @@ The dashboard implementation with Heroku is in the __voila-dashboard branch__ of
 
 ## Data
 The cleaned dataset has been split into CSVs for upload to github repo. They can be loaded into dataframes and merged using the notebook Phase I_Load from Split CSVs. See an image of cruise locations below.  
-![Ocean Counts](/images/OceanRegion.png)
+
+<p align="center">
+  <img width="666" height="334" src="https://github.com/ossana1/DATA606_FinalProject/blob/master/images/OceanRegion.png?raw=true">
+</p>
 
 ## Notebooks 
 ### PHASE I
