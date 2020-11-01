@@ -9,4 +9,4 @@ matplotlib==3.2.2
 ipywidgets==7.5.1
 voila==0.2.3
 jupyter==1.0.0
-voila=gridstack==0.0.11
+voila-gridstack==0.0.11
