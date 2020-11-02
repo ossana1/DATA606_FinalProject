@@ -1,1 +1,2 @@
-web: voila --port=$PORT --no-browser dashboard.ipynb --template=gridstack
+web: voila --port=$PORT --no-browser --template=gridstack dashboard.ipynb
+#voila --template=gridstack my_notebook.ipynb
