@@ -57,5 +57,5 @@ This notebook merges rectangular polygons of ocena regions with the latitude and
 2. Phase III. FBprophet <br> 
 This notebook uses Facebook prophet to predict the future CO2 concentrations. This notebook was used with Google Colabs due to difficulties for local FBprophet installation.
 <br><br>
-3. Phase III. Figures_DepthPlots <br> 
-This notebook tests 3D plotly figures for dashboard implementation and creates conclusion figures. Kmeans clustering was explored. <br><br>
+3. Phase III. GeopandasPlots <br> 
+This notebook uses geopandas to plot the changes over the years. Local installation of geopandas was challenging so Google Colab was used with the below cell to install geopandas. The percent difference and changes over the year are generated as box plots and gifs. <br><br>
