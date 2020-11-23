@@ -49,3 +49,13 @@ Testing of Jupyter notebook with Voila for deployment to Heroku platform as a se
 4. dashboard.ipynb<br>
 Under the voila-dashboard project branch, the final cleaned notebook for dashboard use with Heroku. 
 <br>
+
+### PHASE III
+1. Phase III. GeopandasDivideIntoOceansRegions <br>
+This notebook merges rectangular polygons of ocena regions with the latitude and longitude of the cruise locations. The grouped dataset can then be used with FB prophet API in the PhaseIII. FBprophet notebook and other notebooks for visualizations. This notebook was implemented with Google Colabs because of the difficult local geopandas installation.
+<br><br>
+2. Phase III. FBprophet <br> 
+This notebook uses Facebook prophet to predict the future CO2 concentrations. This notebook was used with Google Colabs due to difficulties for local FBprophet installation.
+<br><br>
+3. Phase III. Figures_DepthPlots <br> 
+This notebook tests 3D plotly figures for dashboard implementation and creates conclusion figures. Kmeans clustering was explored. <br><br>
