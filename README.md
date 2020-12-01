@@ -57,3 +57,6 @@ This notebook uses Facebook prophet to predict the future CO2 concentrations. Th
 <br><br>
 3. Phase III. GeopandasPlots <br> 
 This notebook uses geopandas to plot the changes over the years. Local installation of geopandas was challenging so Google Colab was used with the below cell to install geopandas. The percent difference and changes over the year are generated as box plots and gifs. <br><br>
+4. PhaseIII. StatisticalAnalysis <br> 
+This notebook has a function for a 2-sample, independent t-test after a Levene test for variance to perform the correct type of t-test. The data previously grouped by ocean region is grouped by season (winter,spring, etc) and evaluated for two-tailed and one-tailed tests. <br><br>
+
