@@ -49,14 +49,14 @@ Under the voila-dashboard project branch, the final cleaned notebook for dashboa
 <br>
 
 ### PHASE III
-1. Phase III. GeopandasDivideIntoOceansRegions <br>
-This notebook merges rectangular polygons of ocena regions with the latitude and longitude of the cruise locations. The grouped dataset can then be used with FB prophet API in the PhaseIII. FBprophet notebook and other notebooks for visualizations. This notebook was implemented with Google Colabs because of the difficult local geopandas installation.
+1. PhaseIII_GeopandasDivideIntoOceansRegions <br>
+This notebook merges rectangular polygons of ocean regions with the latitude and longitude of the cruise locations. The grouped dataset can then be used with FB prophet API in the PhaseIII FBprophet notebook and other notebooks for visualizations. This notebook was implemented with Google Colabs because of the difficult local geopandas installation.
 <br><br>
-2. Phase III. FBprophet <br> 
+2. PhaseIII_FBprophet <br> 
 This notebook uses Facebook prophet to predict the future CO2 concentrations. This notebook was used with Google Colabs due to difficulties for local FBprophet installation.
 <br><br>
-3. Phase III. GeopandasPlots <br> 
+3. Phase_III_GeopandasPlots <br> 
 This notebook uses geopandas to plot the changes over the years. Local installation of geopandas was challenging so Google Colab was used with the below cell to install geopandas. The percent difference and changes over the year are generated as box plots and gifs. <br><br>
-4. PhaseIII. StatisticalAnalysis <br> 
+4. PhaseIII_StatisticalAnalysis <br> 
 This notebook has a function for a 2-sample, independent t-test after a Levene test for variance to perform the correct type of t-test. The data previously grouped by ocean region is grouped by season (winter,spring, etc) and evaluated for two-tailed and one-tailed tests. <br><br>
 
