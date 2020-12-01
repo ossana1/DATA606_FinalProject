@@ -52,6 +52,7 @@ Under the voila-dashboard project branch, the final cleaned notebook for dashboa
 1. PhaseIII_GeopandasDivideIntoOceansRegions <br>
 This notebook merges rectangular polygons of ocean regions with the latitude and longitude of the cruise locations. The grouped dataset can then be used with FB prophet API in the PhaseIII FBprophet notebook and other notebooks for visualizations. This notebook was implemented with Google Colabs because of the difficult local geopandas installation.
 <br><br>
+![Biomes](/images/biomes.png)
 2. PhaseIII_FBprophet <br> 
 This notebook uses Facebook prophet to predict the future CO2 concentrations. This notebook was used with Google Colabs due to difficulties for local FBprophet installation.
 <br><br>
